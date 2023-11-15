@@ -16,6 +16,7 @@ namespace Generics_Repository_Pattern.Controllers
             this._Instance = new AllRepository<Category>();
         }
         // GET: Category changes all done accordingly
+        //Some Changes have been done at GitHub
         public ActionResult Index()
         {
             return View(_Instance.GetModel());
@@ -34,6 +35,7 @@ namespace Generics_Repository_Pattern.Controllers
         }
 
         // POST: Category/Create
+        //Some Changes have been done at GitHub
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -50,6 +52,7 @@ namespace Generics_Repository_Pattern.Controllers
         }
 
         // GET: Category/Edit/5
+       //Some Changes have been done at GitHub
         public ActionResult Edit(int id)
         {
             return View();
@@ -57,6 +60,7 @@ namespace Generics_Repository_Pattern.Controllers
 
         // POST: Category/Edit/5
         [HttpPost]
+               //Some Changes have been done at GitHub
         public ActionResult Edit(int id, FormCollection collection)
         {
             try
@@ -72,6 +76,7 @@ namespace Generics_Repository_Pattern.Controllers
         }
 
         // GET: Category/Delete/5
+      //Some Changes have been done at GitHub
         public ActionResult Delete(int id)
         {
             return View();
