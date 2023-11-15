@@ -15,7 +15,7 @@ namespace Generics_Repository_Pattern.Controllers
         {
             this._Instance = new AllRepository<Category>();
         }
-        // GET: Category
+        // GET: Category changes all done accordingly
         public ActionResult Index()
         {
             return View(_Instance.GetModel());
