@@ -16,6 +16,7 @@ namespace Generics_Repository_Pattern.Controllers
             this._Instance = new AllRepository<Category>();
         }
         // GET: Category changes all done accordingly
+        //Changes done at VS
         public ActionResult Index()
         {
             return View(_Instance.GetModel());
@@ -28,12 +29,14 @@ namespace Generics_Repository_Pattern.Controllers
         }
 
         // GET: Category/Create
+        //Changes done at VS
         public ActionResult Create()
         {
             return View();
         }
 
         // POST: Category/Create
+        //Changes done at VS
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -50,12 +53,14 @@ namespace Generics_Repository_Pattern.Controllers
         }
 
         // GET: Category/Edit/5
+        //Changes done at VS
         public ActionResult Edit(int id)
         {
             return View();
         }
 
         // POST: Category/Edit/5
+        //Changes done at VS
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
