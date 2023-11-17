@@ -54,6 +54,7 @@ namespace Generics_Repository_Pattern.Controllers
 
         // GET: Category/Edit/5
         //Changes done at VS
+        //Checking the PR before committing changes
         public ActionResult Edit(int id)
         {
             return View();
