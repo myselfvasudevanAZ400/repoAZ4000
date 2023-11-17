@@ -17,6 +17,7 @@ namespace Generics_Repository_Pattern.Controllers
         }
         // GET: Category changes all done accordingly
         //Changes done at VS
+        //Changes done at GitHub
         public ActionResult Index()
         {
             return View(_Instance.GetModel());
